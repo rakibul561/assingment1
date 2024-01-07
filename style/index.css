@@ -56,13 +56,17 @@ body {
 }
 
 .cotayner {
+    display: flex;
     height: 500px;
     background-image: url('../image/Vectorrr.png');
     background-repeat: no-repeat;
     margin: 30px 200px;
     margin-bottom: 80px;
 }
-
+.image-item img{
+    margin-top: 60px;
+    margin-left: 150px;
+}
 .text-is {
     color: #FFF;
     padding-top: 100px;
@@ -151,12 +155,36 @@ body {
 .rows{
     font-size: 45px;
 }
+.section-head{
+    text-align: center;
+}
+.section-head h3{
+    padding-top: 100PX;
+}
 
+.section-head .font{
+    font-size: 60px;
+    margin-top: 50px;
+}
+.image-contayner{
+    height: 500px;
+     text-align: center;
+}
+.session{
+    margin-left: 200px;
+}
+.session h1{
+    font-size: 45px;
+    font-weight: bold;
+}
 
+.all-img{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    padding-right: 200px;
 
-
-
-
+    gap: 15px;
+}
 
 
 
