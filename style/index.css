@@ -238,7 +238,9 @@ body {
 /* session clase use */
 
 .session {
-    margin-left: 200px;
+     width: 1300px;
+     margin: auto;
+    /* text-align: center; */
 }
 
 .session h1 {
